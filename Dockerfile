@@ -1,6 +1,6 @@
 FROM python:2.7
 
-EXPOSE 8888
+EXPOSE 8080
 
 VOLUME ["/srv/thumbor/storage"]
 
