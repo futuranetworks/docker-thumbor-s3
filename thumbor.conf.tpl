@@ -18,5 +18,7 @@ ALLOW_OLD_URLS = False
 FILTERS = ["thumbor.filters.brightness","thumbor.filters.contrast","thumbor.filters.rgb","thumbor.filters.round_corner","thumbor.filters.quality","thumbor.filters.noise","thumbor.filters.watermark","thumbor.filters.equalize","thumbor.filters.fill","thumbor.filters.sharpen","thumbor.filters.strip_icc","thumbor.filters.frame"]
 DETECTORS = []
 
-ALLOW_UNSAFE_URL = False
+ALLOW_UNSAFE_URL = True
 SECURITY_KEY = "{{ THUMBOR_KEY }}"
+
+PORT = 8080
